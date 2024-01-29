@@ -180,7 +180,7 @@ rem = a % b;
 
 - Modulo (remainder operator)
       12 % 5 = 2
-      ![alt](./Assets/Pasted%20image%2020240123232321.png)
+![alt](./Assets/Pasted%20image%2020240123232321.png)
 - Exponentiation (power operator)
        2 ** 3 = 8
 
@@ -191,6 +191,7 @@ rem = a % b;
 - NaN * 1
 - NaN + NaN
 So in my console if i type 0 / 0 then i will be getting an output is NaN. which means Not-A-Number but if i see type of NaN it will show number. It is a number which is not valid.
+
 ![alt](./Assets/Pasted%20image%2020240123233025.png)
 ```JS
 0 / 0;
@@ -261,6 +262,7 @@ let sum = num1 + num2;
 **Till now to declaring a variables we are using like a = 5; but this is not good method. Whenever you are declaring variable for the first time we need to use let a = 5; and after we can use a = a+1 but when we are using for first time we need to use let keyword.**
 
 **Example: square**
+
 ![alt](./Assets/Pasted%20image%2020240124225503.png)
 
 ```JS
@@ -286,6 +288,7 @@ const g = 9.8;
 **From the above image i have took const newNum =5; now if i want to reassign the value from 5 to 10 that is not possible once we declared the value in const keyword we can't do any changes.**
 
 **Example: finding Area**
+
 ![alt](./Assets/Pasted%20image%2020240124230348.png)
 ### Var Keyword
 > Old syntax of writing variables
@@ -371,12 +374,14 @@ let age = 10;      \\ here age =10 but we used pre-inc so it                    
 let newAge = ++age; \\ newAge = 11
 ```
 ![alt](./Assets/Pasted%20image%2020240124233841.png)
-==**Post-increment (use, then change)==
+==**Post-increment (use, then change)**==
+
 ```JS
-let age = 10;      \\ here age = 10 but we used post-inc so it                        will be same 10 here
-let newAge = age++; \\ here in newAge it will change to 10 and                         after now age value will be changing to                         11
+let age = 10;      \\ here age = 10 but we used post-inc so it will be same 10 here
+let newAge = age++; \\ here in newAge it will change to 10 and after now age value will be changing to 11
 ```
 ![alt](./Assets/Pasted%20image%2020240124233911.png)
+
 ![[Pasted image 20240124234027.png]]
 
 ## Practice Qs:
@@ -418,6 +423,7 @@ let age = 13;
 let isAdult = false;
 ```
 
+
 ![alt](./Assets/Pasted%20image%2020240125000202.png)
 ```JS
 isAdult = True; \\ we will get error we need to use small t
@@ -429,8 +435,8 @@ typeof isAdult
 **In JavaScript we have one special thing. for any one particular variable type we can change the Type. example i used let a =5; now typeof a is 'number' but if we want to change the type we can do it like a = true; now typeof  a is 'Boolean' .**
 
 **This is not allowed in another programming languages like java c++**
-![alt](./Assets/Pasted%20image%2020240125001007.png)
 
+![alt](./Assets/Pasted%20image%2020240125001007.png)
 
 ## TypeScript
 
